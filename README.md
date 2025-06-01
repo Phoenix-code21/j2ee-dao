@@ -17,31 +17,35 @@ Este projeto é uma aplicação Java Web do tipo **CRUD** (Create, Read, Update,
 - Maven
 
 - Banco de Dados (MySQL ou PostgreSQL)
+  
+---
 
 🚀 Como executar o projeto
 Clone o repositório:
 
 bash:
 
-git clone https://github.com/Phoenix-code21/j2ee-dao.git
+- git clone https://github.com/Phoenix-code21/j2ee-dao.git
 
-Importe como projeto Maven na sua IDE (Eclipse, IntelliJ ou VS Code)
+- Importe como projeto Maven na sua IDE (Eclipse, IntelliJ ou VS Code)
 
-Rode o maven para baixar as dependências.
+- Rode o maven para baixar as dependências.
 
 Configure o banco de dados:
 
-Crie o banco com base no script SQL (em "database/" tem um sql de testes).
+- Crie o banco com base no script SQL (em "database/" tem um sql de testes).
 
-Altere as credenciais no arquivo:
+- Altere as credenciais no arquivo:
 
-br.com.phoenix.utils.DB.java
+- br.com.phoenix.utils.DB.java
 
-Execute com Tomcat (ou outro servidor compatível):
+- Execute com Tomcat (ou outro servidor compatível):
 
-Faça o deploy na IDE.
+- Faça o deploy na IDE.
 
-Acesse: http://localhost:8080/nome-do-projeto
+- Acesse: http://localhost:8080/nome-do-projeto
+
+---
 
 ✅ Funcionalidades
 
