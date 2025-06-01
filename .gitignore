@@ -1,0 +1,53 @@
+# ======================
+# Java / Maven Project
+# ======================
+
+# Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.loadpath
+
+# VS Code
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other common folders to ignore
+bin/
+tmp/
+*.swp
+*.bak
+*.old
+*.orig
+
+# User credentials or secrets (se existir)
+.env
+*.key
+*.pem
